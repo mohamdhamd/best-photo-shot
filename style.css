@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:Roboto,Tahoma,Helvetica,Verdana,Arial,sans-serif
+}
+.head{
+    background-color: #1d1c29;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px 20px;
+    position: fixed;
+}
+.items a{
+    color: white;
+    font-size: 1.4em;
+}
+.items a:hover{
+    color: #00e5b0;
+    text-decoration: underline;
+}
+.space{
+    width: 30%;
+}
+.main{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    min-height: 100vh;
+
+}
+.main-head{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.text-head{
+    color: white;
+    font-size: 2.5em;
+}
+.search{
+    display: flex;
+    color: white;
+}
+.icon-head{
+    color: white;
+    align-items: center;
+    display: flex;
+    padding: none;
+}
+.icon-head1{
+    padding: 10px;
+    font-size: 25px;
+}
+.icon-head1:hover{
+    color: rgb(0, 255, 255);
+}
+.back1{
+    background-image: url(img/hero_image.jpg);
+    width: 90%;
+    height: 450px;
+    margin: 15px 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.text1{
+    background-color: white;
+    color: #000000;
+    font-size: 2.7em;
+    width: 130px;
+    border-radius: 0.25px;
+}
+.c-text1{
+    padding-top: 45px;
+    padding-left: 30px;
+}
+.button1{
+    background-color: #00e5b0;
+    width: 230px;
+    height: 60px;
+    font-size: 1.3em;
+    margin: 20px 0 0 30px;
+    border-radius: 9px;
+    transition: 0.5s;
+cursor: pointer;
+}
+.button1:hover{
+    background-color: #000000;
+color: aliceblue;
+}
+.back2{
+    /* background-image: url(/img/black-friday-concept-with-alarm-cart-space-2.jpg); */
+    background-image: url(https://margareta75.github.io/E-Commerce-Online-Shop-Design/img/black-friday-concept-with-alarm-cart-space-2.jpg);
+    width: 1200px;
+    height: 800px;
+    background-size: cover;
+    margin-left: 170px;
+}
+.text2-1{
+    color: aliceblue;
+    font-size: 3em;
+    padding: 80px 0 0 60px;
+}
+.button2{
+    background-color: #00e5b0;
+    width: 230px;
+    height: 60px;
+    font-size: 1.3em;
+    margin: 20px 0 0 60px;
+    border-radius: 9px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.button2:hover{
+    background-color: #000000;
+color: aliceblue;
+}
+.text2-2{
+    color: red;
+    font-size: 3em;
+    padding: 80px 0 0 60px;
+}
+.text2-3{
+    color: aliceblue;
+    font-size: 2em;
+    padding: 80px 0 0 60px;
+}.text2-4{
+    color: aliceblue;
+    font-size: 2em;
+    padding: 30px 0 0 60px;
+}
+.text3{
+    color: #00e5b0;
+    font-size: 3em;
+    text-align: center;
+    padding: 40px 0 30px 0;
+}
+.img-all{
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.img-1{
+    background-image: url(./img/nayris-aquino-Lidm0GHUL-0-unsplash.jpg);
+    width: 30%;
+    height: 400px;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+
+}
+.img-1 p{
+    margin-top: 344px;
+    color: aliceblue;
+    font-size: 1.5em;
+}
+.son1{
+    background-color: rgba(240, 248, 255, 0.493);
+    height: 400px;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+}
+.img-1:hover .son1{
+    top: 0%;
+    left: 0%;
+    transition: .75s;
+}
+.son-t1{
+    color: aliceblue;
+    font-size: 1.3em;
+}
+.son-b1{
+    background-color: #00e5b0;
+    width: 230px;
+    height: 60px;
+    font-size: 1.3em;
+    margin: 20px 0 0 30px;
+    border-radius: 9px;
+    transition: 0.5s;
+cursor: pointer;
+
+}
+.son-b1:hover{
+    background-color: #000000;
+color: aliceblue;
+}
+.img-2{
+    background-image: url(./img/mikedelta-zUnc4-eHw6E-unsplash.jpg);
+    width: 30%;
+    height: 400px;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    
+}
+.img-2 p{
+    margin-top: 344px;
+    color: aliceblue;
+    font-size: 1.5em;
+}
+
+
+.son2{
+    background-color: rgba(240, 248, 255, 0.493);
+    height: 400px;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+}
+.img-2:hover .son2{
+    top: 0%;
+    left: 0%;
+    transition: .75s;
+}
+.son-t2{
+    color: aliceblue;
+    font-size: 1.3em;
+}
+.son-b2{
+    background-color: #00e5b0;
+    width: 230px;
+    height: 60px;
+    font-size: 1.3em;
+    margin: 20px 0 0 30px;
+    border-radius: 9px;
+    transition: 0.5s;
+cursor: pointer;
+
+}
+.son-b2:hover{
+    background-color: #000000;
+color: aliceblue;
+}
+
+
+.img-3{
+    background-image: url(./img/rohit-jawalkar-bZvX1kozeRg-unsplash.jpg);
+    width: 30%;
+    height: 400px;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+
+}
+.img-3 p{
+    margin-top: 344px;
+    color: aliceblue;
+    font-size: 1.5em;
+}
+
+.son3{
+    background-color: rgba(240, 248, 255, 0.493);
+    height: 400px;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+}
+.img-3:hover .son3{
+    top: 0%;
+    left: 0%;
+    transition: .75s;
+}
+.son-t3{
+    color: aliceblue;
+    font-size: 1.3em;
+}
+.son-b3{
+    background-color: #00e5b0;
+    width: 230px;
+    height: 60px;
+    font-size: 1.3em;
+    margin: 20px 0 0 30px;
+    border-radius: 9px;
+    transition: 0.5s;
+cursor: pointer;
+
+}
+.son-b3:hover{
+    background-color: #000000;
+color: aliceblue;
+}
+.f-main{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+}
+.f-1{
+    background-color: #00e5b0;
+    border-radius: 50%;
+}
+.f-t1{
+    color: aliceblue;
+    font-size: 1.2em;
+    padding:5px 20px 40px 20px;
+}
+footer{
+    background-color: #1d1c29;
+}
+.mun-all{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin: auto;
+}
+.mun-1 p{
+    color: #00e5b0;
+    font-size: 1.3em;
+    padding: 10px 0;
+}
+.mun-1 ul{
+    list-style: none;
+}
+.mun-1 a{
+    color: aliceblue;
+    font-size: 1em;
+}
+.mun-1 li{
+    padding-top: 5px;
+    color: aliceblue;
+}
+.mun-1 input {
+    width: 150px;
+    height: 40px;
+
+}
+.mun-1 button{
+    width: 150px;
+    height: 40px;
+    border-radius: 2px;
+    font-size: 1.3em;
+    background-color: #00e5b0;
+    transition: 0.75s;
+
+}
+.mun-1 button:hover{
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+}
+.icon-all{
+    width: 40%;
+    display: flex;
+    margin: auto;
+}
+.icon-all div{
+    margin: 30px;
+    font-size: 30px;
+}
+.icon-all i{
+    color: aliceblue;
+}
+.font-all{
+    display: flex;
+}
+.first{
+    width: 70%;
+}
+.font-all i{
+    color: aliceblue;
+    font-size: 20px;
+}
+.i{
+    margin: 20px;
+}
+
+.i button:hover{
+    color: #00e5b0;
+}
+.i button{
+    background-color: #000000;
+    color: aliceblue;
+}
+.end{
+    text-align: center;
+    font-size: 1.5em;
+    color: aliceblue;
+    padding-bottom:40px;
+}
